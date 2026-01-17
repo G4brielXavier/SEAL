@@ -1,84 +1,52 @@
 # SEAL
 
-**SEAL** is a minimal writing tool.
-Write. Seal. Leave it untouched.
+SEAL is a minimalist and experimental note-taking editor, created as an authorial project to explore ideas of structured writing, creative limitations, and simple data architecture.
 
-**SEAL** is a small web app create for **personal writing and notes** where text is treated as something
-intencional - not endlessly editable
+It doesn't try to be Notion, nor a complete editor.
+In fact, it **hates you a little** — and that's on purpose.
 
-Once a text is **sealed**, it becomes read-only.
-No formatting wars. No cloud. No noise.
+## ✨ Idea
 
-### What is SEAL?
+SEAL was born as an experiment.
+The idea is to write with less comfort, less distraction, and more intention.
 
-SEAL is not a note app. <br>
-SEAL is not Notion. <br>
-SEAL is not a markdown editor. <br>
+No thousand formats.
+No excessive customization.
+No trying to please.
 
-**SEAL** is a **personal writing space** inspired by the ideia of writing on stone:
-- you write carefully
-- you seal when done
-- you don't rewrite history
+It's writing almost as if it were in stone.
 
-### Core concept
+## 🧠 Concepts
 
-SEAL follows a simple ritual:
-1. Write
-2. Seal
-3. Read
+- Direct and raw writing
+- Simple data-driven structure
+- Focus on content, not aesthetics
+- Project conceived more as a study and portfolio than a final product
 
-After sealing:
-- the text cannot be edited
-- only read
-- the act of sealing give weight to what was written
+## 🚧 Status
 
-### Sealed Text
+🟡 Project closed/frozen  
 
-- Sealed texts are immutable
-- No markdown
-- No formatting
-- No AI assistance
-- No cloud sync
+SEAL is not in active development.
+It remains online only as a technical and conceptual demonstration.
 
-This is intentional
+## 🌐 Demo
 
-SEAL values **finality**, not productivity metrics.
+https://sealtablets.vercel.app
 
-### Storage
+## 📦 Technologies
 
-- Data is storage **locally in the browser**
-- No backend
-- No accounts
-- No tracking
+- Web (frontend)
+- Simple data structure (JSON)
+- Deploy via Vercel
 
-SEAL is designed primarily for **personal use**.
+## 📌 Note
 
-### Tech Stack
-- Vite
-- React
-- CSS (no UI framework)
-- LocalStorage
-- Zustand
+This project exists primarily as:
+- A creative experiment
+- A record of ideas
+- A portfolio item
 
-### Purpose
+The current focus of development is shifting to other projects, such as the **Hova** DSL.
 
-SEAL was built as:
-- a personal tool
-- a UX/interaction experiment
-- a portfolio project
-
-It explores restraint, intentional design, and the ideia that **not everything should be editable forever.**
-
-### Status
-
-SEAL is considered **v1.0** - **Concept complete**.
-
-No active roadmap.
-No promised features.
-
-### Final Note
-
-SEAL is not for everyone.
-
-It exists for those who believe that
-**writing sometimes deserves to be left untouched.**
+Created by **Xavier**
