@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../assets/fonts/Nunito.ttf);
+    font-weight: 400;
+}
+
+:root {
+    --bg-color: rgb(3, 3, 3);
+    --bg2-color: rgb(15, 15, 15);
+    --text-color: rgb(212, 212, 212);
+    --border-color: rgb(36, 36, 36);
+
+    --btn-hover-color: rgba(35, 35, 35, 0.5);
+}

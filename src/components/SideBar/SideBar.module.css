@@ -1,0 +1,193 @@
+.SideBarMain {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    
+    height: 100%;
+    
+    border: 1px solid var(--border-color);
+    transition: 0.2s;
+
+    border-radius: 5px;
+}
+
+.SectionSBM {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+
+
+    height: 94%;
+    
+    background-color: var(--bg2-color);
+}
+
+.BrandWW {
+    padding: 15px;
+}
+
+.BrandWW h1 {
+    font-size: 3rem;
+    text-align: center;
+
+    font-family: 'Nunito';
+}
+
+.BrandWW p {
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.BlockSideBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--bg2-color);
+
+    height: 6%;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.BlockSideBar p {
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 0.9rem;
+
+    padding: 10px;
+}
+
+.OptionListTablets {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5px;
+
+    padding: 4px;
+
+    width: 100%;
+
+    overflow-y: auto;
+    min-height: 0;
+    max-height: 220px;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+.OptionListTablets::--webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.OptionList {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5px;
+
+    width: 100%;
+
+    padding: 4px;
+}
+
+.Option {
+    flex-grow: 0;
+    width: 98%;
+    padding: 5px;
+
+    border-radius: 3px;
+
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Option img, .OptionSelected img {
+    width: 8%;
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+.Option p, .OptionSelected p {
+    font-size: 0.8rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200px;
+}
+
+.OptionSelected {
+    flex-grow: 0;
+    width: 98%;
+    padding: 5px;
+
+    background-color: var(--btn-hover-color);
+    font-weight: bold;
+
+    border-radius: 3px;
+
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.MainOption {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 100;
+    font-size: 0.9rem;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 3px;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.MainOption:hover {
+    opacity: 0.5;
+}
+
+.Option:hover {
+    background-color: var(--btn-hover-color);
+    cursor: pointer;
+}
+
+
+.CharacterButton {
+    background-color: transparent;
+    padding: 15px;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top-right-radius: 5px;
+
+    font-size: 1.1rem;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.CharacterButton:hover {
+    background-color: var(--btn-hover-color);
+}

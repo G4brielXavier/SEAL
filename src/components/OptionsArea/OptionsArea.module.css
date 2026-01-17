@@ -1,0 +1,63 @@
+.OptionMain {
+    width: 8%;
+    height: 100%;   
+
+    background-color: var(--bg2-color) 0.9;
+
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.ButtonSeal, .ButtonDelete {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.ButtonSeal { background-image: linear-gradient(to left, rgb(75, 67, 104), rgb(68, 73, 119), rgb(75, 95, 119)); }
+.ButtonDelete { background-image: linear-gradient(to left, rgb(104, 67, 67), rgb(119, 68, 68), rgb(119, 75, 88)); }
+
+
+.ButtonSeal img, .ButtonDelete img {
+    width: 40%;
+}
+
+.ButtonSeal:hover, .ButtonDelete:hover {
+    opacity: 0.5;
+}
+
+.InfoBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+
+    border: 1px solid var(--border-color);
+}
+
+.InfoBlock p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.InfoBlock p:nth-child(2) {
+    font-size: 0.6rem;
+}
